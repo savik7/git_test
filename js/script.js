@@ -12,4 +12,9 @@ console.log(5*5);
 let userName = "Alex";
 let userSurname = "Smith";
 
-console.log(`${userName} ${userSurname} is an advocate`);
+let result = prompt("Введете что нибудь?", 20);
+console.log(result);
+alert(`Вы ввели ${result}`);
+
+let agreement = confirm("Принять правила соглашения?");
+console.log(agreement);
