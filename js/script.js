@@ -1,14 +1,15 @@
-let userName = "Alex"
-alert(userName)
-console.log(userName)
-console.log(123)
 
-let user = {
-  name: "Иван",
-  lastName: "Иванович",
-  age: 25
-};
+function myFunction() {
+  alert("Вы нажали кнопку")
+}
 
-alert(user.name);
-alert(user.lastName);
-alert(user.age);
+console.log("Вывод чего-либо в консоль");
+
+alert("Вывод в модальное окно");
+
+console.log(5*5);
+
+let userName = "Alex";
+let userSurname = "Smith";
+
+console.log(`${userName} ${userSurname} is an advocate`);
