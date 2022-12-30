@@ -18,3 +18,10 @@ alert(`Вы ввели ${result}`);
 
 let agreement = confirm("Принять правила соглашения?");
 console.log(agreement);
+
+let password = prompt("Введите пароль ");
+if (password === "1234") {
+  alert("Вход выполнен");
+} else {
+  alert("Вход запрещен!");
+}
