@@ -1,8 +1,8 @@
 
 function myFunction() {
-  alert("Вы нажали кнопку")
+  alert("Вы нажали кнопку");
 }
-
+/*
 console.log("Вывод чего-либо в консоль");
 
 alert("Вывод в модальное окно");
@@ -34,4 +34,15 @@ let j = 0;
 while (j < 5) {
   console.log(j);
   j++;
-}
+}*/
+
+document.body.style.background = 'red'; // сделать фон красным
+setTimeout(() => document.body.style.background = '', 3000); // вернуть назад
+
+//let elem = document.getElementById('btn');
+let elem = document.querySelector('#btn');
+elem.style.background = 'red';
+
+document.querySelector('.btn').addEventListener("click", () =>
+  myFunction()
+);
